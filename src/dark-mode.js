@@ -23,5 +23,3 @@ const darkMode = () => {
       btn.addEventListener('click', handleThemeToggle)
     );
   };
-  
-  // export default darkMode;

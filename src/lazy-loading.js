@@ -17,5 +17,3 @@ const lazyLoading = () => {
       observer.observe(img);
     });
   };
-  
-  // export default lazyLoading;

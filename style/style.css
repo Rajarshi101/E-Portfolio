@@ -1,11 +1,18 @@
+/* Select color scheme number 11 for light theme and number 27 for dark theme */
+
 :root {
-  --clr-dark: #070a13;
-  --clr-light: #f1f5f9;
+  --clr-dark: #222629;
+  --clr-header-color: #22262983;
+  --clr-light: #C2CAD0;
+  --clr-btn-text: #000000;
   --clr-slate400: #94a3b8;
-  --clr-slate600: #475569;
-  --clr-slate800: #1e293b;
-  --clr-rose: #e11d48;
-  --clr-indigo: #4f46e5;
+  --clr-slate600: #6B6E70;
+  --clr-slate800: #6B6E70;
+  --clr-green-indigo: #86C323;
+  --clr-yellow-rose: #faed26;
+  --clr-yellow-rose-shadow1: rgba(250, 237, 38, 0.5);
+  --clr-yellow-rose-shadow2: rgba(250, 237, 38, 0.25);
+  --clr-yellow-rose-shadow3: rgba(250, 237, 38, 0.22);
 
   /* rose rgb(225, 29, 72) */
   /* indigo rgb(79, 70, 229) */
@@ -38,11 +45,18 @@ html {
 }
 
 .light-mode {
-  --clr-light: #070a13;
-  --clr-dark: #f1f5f9;
+  --clr-light: #222629;
+  --clr-dark: #C2CAD0;
+  --clr-header-color: #c2cad083;
+  --clr-btn-text: #ffffff;
   --clr-slate400: #1e293b;
   --clr-slate600: #1e293b;
   --clr-slate800: #1e293b;
+  --clr-green-indigo: #4f46e5;
+  --clr-yellow-rose: #e11d48;
+  --clr-yellow-rose-shadow1: rgba(225, 29, 72, 0.5);
+  --clr-yellow-rose-shadow2: rgba(225, 29, 72, 0.25);
+  --clr-yellow-rose-shadow3: rgba(225, 29, 72, 0.22);
 }
 
 body {
@@ -71,11 +85,11 @@ button {
 }
 
 a {
-  color: var(--clr-rose);
+  color: var(--clr-yellow-rose);
 }
 
 strong {
-  color: var(--clr-indigo);
+  color: var(--clr-green-indigo);
 }
 
 /* Scrollbar */
@@ -88,6 +102,6 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: var(--clr-rose);
-  outline: 1px solid var(--clr-rose);
+  background-color: var(--clr-yellow-rose);
+  outline: 1px solid var(--clr-yellow-rose);
 }
