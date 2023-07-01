@@ -1,6 +1,6 @@
 .featured__subtitle {
     font-size: var(--size-sm);
-    color: var(--clr-indigo);
+    color: var(--clr-green-indigo);
     text-transform: capitalize;
     font-weight: 400;
   }
@@ -70,7 +70,7 @@
   
   .featured__img-wrapper::after {
     content: '';
-    background-color: rgba(134, 194, 50, 0.5);
+    background-color: var(--clr-img);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -81,7 +81,7 @@
   }
   
   .featured__img-wrapper:hover::after {
-    background-color: rgba(134, 194, 50, 0.2);
+    background-color: var(--clr-img-hover);
   }
   
   /* xs */

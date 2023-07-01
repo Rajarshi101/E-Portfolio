@@ -13,6 +13,8 @@
   --clr-yellow-rose-shadow1: rgba(250, 237, 38, 0.5);
   --clr-yellow-rose-shadow2: rgba(250, 237, 38, 0.25);
   --clr-yellow-rose-shadow3: rgba(250, 237, 38, 0.22);
+  --clr-img: rgba(134, 194, 50, 0.5);
+  --clr-img-hover: rgba(134, 194, 50, 0.2);
 
   /* rose rgb(225, 29, 72) */
   /* indigo rgb(79, 70, 229) */
@@ -57,6 +59,8 @@ html {
   --clr-yellow-rose-shadow1: rgba(225, 29, 72, 0.5);
   --clr-yellow-rose-shadow2: rgba(225, 29, 72, 0.25);
   --clr-yellow-rose-shadow3: rgba(225, 29, 72, 0.22);
+  --clr-img: rgba(79, 70, 229, 0.5);
+  --clr-img-hover: rgba(79, 70, 229, 0.2);
 }
 
 body {

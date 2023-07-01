@@ -58,7 +58,26 @@
     filter: blur(0) grayscale(0);
     transition: 0.7s ease-in-out;
   }
-  
+
+  .fa-brands {
+    font-size: 2.5rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    text-align: left;
+    color: #ffeba7;
+  }
+
+  .go2top a{
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.25rem;
+    padding: 0.438rem 0.75rem;;
+    font-size: 2rem;
+    border-radius: 0.375rem;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    z-index: 9999;
+}
   /* xs */
   @media (min-width: 475px) {
     .container {
