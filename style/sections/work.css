@@ -21,11 +21,12 @@
   
   .work__img-wrapper {
     position: relative;
+    margin: 2rem;
   }
   
   .work__img-wrapper::after {
     content: '';
-    background-color: rgba(134, 194, 50, 0.5);
+    background-color: var(--clr-img);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -36,7 +37,7 @@
   }
   
   .work__img-wrapper:hover::after {
-    background-color: rgba(134, 194, 50, 0.2);
+    background-color: var(--clr-img-hover);
   }
   
   .work__project:not(:last-child) {
