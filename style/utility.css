@@ -64,7 +64,14 @@
     margin-left: 0.625rem;
     margin-right: 0.625rem;
     text-align: left;
-    color: #ffeba7;
+  }
+
+  .fa-brands.fa-linkedin {
+    color: var(--clr-icon-linkedin);
+  }
+
+  .fa-brands.fa-github {
+    color: var(--clr-icon-github);
   }
 
   .go2top a{
