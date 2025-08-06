@@ -14,7 +14,7 @@
   --clr-yellow-rose-shadow2: rgba(250, 237, 38, 0.25);
   --clr-yellow-rose-shadow3: rgba(250, 237, 38, 0.22);
   --clr-img: rgba(134, 194, 50, 0.5);
-  --clr-img-hover: rgba(134, 194, 50, 0.2);
+  --clr-img-hover: rgba(134, 194, 50, 0.1);
   --clr-icon-linkedin: #ffeba7;
   --clr-icon-github: #ffeba7;
 
@@ -62,7 +62,7 @@ html {
   --clr-yellow-rose-shadow2: rgba(225, 29, 72, 0.25);
   --clr-yellow-rose-shadow3: rgba(225, 29, 72, 0.22);
   --clr-img: rgba(79, 70, 229, 0.5);
-  --clr-img-hover: rgba(79, 70, 229, 0.2);
+  --clr-img-hover: rgba(79, 70, 229, 0.1);
   --clr-icon-linkedin: #0A66C2;
   --clr-icon-github: #171515;
 }

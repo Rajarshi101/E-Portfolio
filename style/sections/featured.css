@@ -57,15 +57,31 @@
     text-transform: capitalize;
   }
   
-  .featured__img-container {
+  /* .featured__img-container {
     margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
+  } */
+
+  .featured__img-container {
+    margin-top: 1rem;
+    display: flex; /* instead of grid */
+    flex-wrap: wrap;
+    gap: 1rem;
   }
   
   .featured__img-wrapper {
     position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+
+  .featured__img-wrapper img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
   }
   
   .featured__img-wrapper::after {
